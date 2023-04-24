@@ -1,5 +1,5 @@
 # find out which distribution we are running on
-LFILE="/etc/*-release"  
+LFILE="/etc/os-release"  
 #LFILE="/etc/lsb-release"
 MFILE="/System/Library/CoreServices/SystemVersion.plist"
 if [[ -f $LFILE ]]; then
