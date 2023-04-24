@@ -81,6 +81,9 @@ disabled = false
 [username]
 disabled = true
 
+[container]
+disabled = true
+
 [vagrant]
 disabled = true
 
